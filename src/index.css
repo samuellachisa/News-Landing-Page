@@ -103,3 +103,9 @@ a {
  text-indent: 15px;
  border: none;
 }
+.Items{
+	display: flex;
+}
+.container-bottom{
+	display: flex;
+}

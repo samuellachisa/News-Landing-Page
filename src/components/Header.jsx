@@ -1,6 +1,9 @@
 import React from 'react'
 import Logo from '../assets/logo.svg'
 import img1 from '../assets/image-web-3-desktop.jpg'
+import img3 from '../assets/image-retro-pcs.jpg'
+import img4 from '../assets/image-gaming-growth.jpg'
+import img5 from '../assets/image-top-laptops.jpg'
 import "../index.css"
 function Header() {
   return (
@@ -60,11 +63,38 @@ function Header() {
             
                
             </span>
+        </div>
+        <div>
 
-            <div>
-                <div className=""></div>
-                <div className=""></div>
-                <div className=""></div>
+            <div className='container-bottom'>
+                <div className="Items">
+                    <span>
+                     <img src={img3}/>
+                    </span>
+                    <span>
+                        <h3>01</h3>
+                        <h3>Reviving Retro PCs</h3>
+                        <p>What happens when old PCs are given modern upgrades?</p>
+                    </span>
+                </div>
+                <div className="Items">
+                   <span>
+                   <img src={img5}/>
+                   </span>
+                    <span><h3>02</h3>
+                    <h3>Top 10 Laptops of 2022</h3>
+                    <p>Our best picks for various needs and budgets.</p>
+                    </span>
+                </div>
+                <div className="Items">
+                    <span>
+                    <img src={img4}/>
+                    </span>
+                    <span>   <h3>03</h3>
+                    <h3>The Growth of Gaming </h3>
+                    <p>How the pandemic has sparked fresh opportunies.</p>
+                    </span>
+                </div>
             </div>
         </div>
 
