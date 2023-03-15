@@ -46,18 +46,20 @@ function Header() {
             </span>
            
             </span>
+            <span className='side-bar'>
+            <h1 className='Title'>New</h1>
             <span>
-            <h2 className='Title'>NEW</h2>
-            <span>
-            <h5>Hydrogen Vs Electric Cars</h5>
+            <h3 className='sub-title'>Hydrogen Vs Electric Cars</h3>
             <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
             </span>
+            <hr/>
             <span>
-            <h5>The Downsides of AI Artistry</h5>
-            <p>what are the possible adverse effects of on-demand AI image generation?</p>
+            <h3  className='sub-title'>The Downsides of AI Artistry</h3>
+            <p>What are the possible adverse effects of on-demand AI image generation?</p>
             </span>
+            <hr/>
             <span>
-            <h5>Is VC Funding Drying Up?</h5>
+            <h3  className='sub-title'>Is VC Funding Drying Up?</h3>
             <p>Private funding by VC firms is down 50% YOY. We take a look at what that means</p>
             </span>
             
@@ -69,9 +71,9 @@ function Header() {
             <div className='container-bottom'>
                 <div className="Items">
                     <span>
-                     <img src={img3}/>
+                     <img src={img3} height="200px"/>
                     </span>
-                    <span>
+                    <span className='side-content'>
                         <h3>01</h3>
                         <h3>Reviving Retro PCs</h3>
                         <p>What happens when old PCs are given modern upgrades?</p>
@@ -79,18 +81,19 @@ function Header() {
                 </div>
                 <div className="Items">
                    <span>
-                   <img src={img5}/>
+                   <img src={img5} height="200px"/>
                    </span>
-                    <span><h3>02</h3>
+                    <span className='side-content'>
+                    <h3>02</h3>
                     <h3>Top 10 Laptops of 2022</h3>
                     <p>Our best picks for various needs and budgets.</p>
                     </span>
                 </div>
                 <div className="Items">
                     <span>
-                    <img src={img4}/>
+                    <img src={img4} height="200px"/>
                     </span>
-                    <span>   <h3>03</h3>
+                    <span className='side-content'>   <h3>03</h3>
                     <h3>The Growth of Gaming </h3>
                     <p>How the pandemic has sparked fresh opportunies.</p>
                     </span>

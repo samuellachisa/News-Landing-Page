@@ -82,6 +82,19 @@ a {
 .container{
   display: flex;
   margin-top: 5%;
+  
+  
+}
+.side-bar{
+	background-color:hsl(240, 100%, 5%);
+	margin-left: 50px;
+	padding: 20px;
+}
+p{
+  color:  hsl(233, 8%, 79%);
+}
+.sub-title{
+	color: hsl(36, 100%, 99%)
 }
 .container-two
 {
@@ -108,4 +121,8 @@ a {
 }
 .container-bottom{
 	display: flex;
+	margin-top: 5%;
+}
+.side-content{
+	margin-left: 10px;
 }
