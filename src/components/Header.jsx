@@ -36,7 +36,7 @@ function Header() {
         </div>
          
         <div className='container'>
-            <span><img src={img1} width="100%"/>
+            <span className='sub-container'><img src={img1} width="100%"/>
             <span className='container-two'>
             <h2>The Bright Future of Web 3.0?</h2>
             <span>
@@ -46,6 +46,7 @@ function Header() {
             </span>
            
             </span>
+
             <span className='side-bar'>
             <h1 className='Title'>New</h1>
             <span>

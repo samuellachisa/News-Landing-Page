@@ -1,4 +1,9 @@
-
+@font-face {
+	font-family: "Custom-Font";
+	src: local("Csutom-Font"),
+	 url("../src/assets/custom-font.ttf") format("truetype");
+	font-weight: bold;
+	}
 * {
 	box-sizing: border-box;
 }
@@ -6,7 +11,7 @@ p{
   font-size: 15px;
 }
 body {
-	font-family: 'Montserrat', sans-serif;
+	font-family: Custom-Font;
 	line-height: 1.6;
 	margin-left: 10%;
   margin-right: 10%;
@@ -60,6 +65,7 @@ a {
 	.header,
 	.main-nav {
 		display: flex;
+		margin-right: 80px;
 	}
 	.header {
 		flex-direction: column;
@@ -89,6 +95,7 @@ a {
 	background-color:hsl(240, 100%, 5%);
 	margin-left: 50px;
 	padding: 20px;
+	max-width: 310px
 }
 p{
   color:  hsl(233, 8%, 79%);
@@ -122,7 +129,17 @@ p{
 .container-bottom{
 	display: flex;
 	margin-top: 5%;
+	justify-content: space-between;
 }
 .side-content{
-	margin-left: 10px;
+	margin-left: 15px;
+}
+.sub-container
+{
+	max-width: 1000px;
+}
+.container-two>h2{
+	color: black;
+	font-weight: 900;
+	font-size: 40pt;
 }
