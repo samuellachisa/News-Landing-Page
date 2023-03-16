@@ -41,7 +41,7 @@ function Header() {
             <h2>The Bright Future of Web 3.0?</h2>
             <span>
                 <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
-               <button className='readBtn'>READ MORE</button>
+               <button type="button"className='readBtn'>READ MORE</button>
             </span>
             </span>
            
@@ -76,7 +76,7 @@ function Header() {
                     </span>
                     <span className='side-content'>
                         <h3>01</h3>
-                        <h3>Reviving Retro PCs</h3>
+                        <h4>Reviving Retro PCs</h4>
                         <p>What happens when old PCs are given modern upgrades?</p>
                     </span>
                 </div>
@@ -86,7 +86,7 @@ function Header() {
                    </span>
                     <span className='side-content'>
                     <h3>02</h3>
-                    <h3>Top 10 Laptops of 2022</h3>
+                    <h4>Top 10 Laptops of 2022</h4>
                     <p>Our best picks for various needs and budgets.</p>
                     </span>
                 </div>
@@ -95,7 +95,7 @@ function Header() {
                     <img src={img4} height="200px"/>
                     </span>
                     <span className='side-content'>   <h3>03</h3>
-                    <h3>The Growth of Gaming </h3>
+                    <h4>The Growth of Gaming </h4>
                     <p>How the pandemic has sparked fresh opportunies.</p>
                     </span>
                 </div>
