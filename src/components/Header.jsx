@@ -4,16 +4,16 @@ import img1 from '../assets/image-web-3-desktop.jpg'
 import img3 from '../assets/image-retro-pcs.jpg'
 import img4 from '../assets/image-gaming-growth.jpg'
 import img5 from '../assets/image-top-laptops.jpg'
+import img6 from '../assets/icon-menu.svg'
+import img7 from '../assets/icon-menu-close.svg'
 import "../index.css"
 function Header() {
   return (
     <div>
-       
-       
         <div className='header'>
            <img  className='logo' src={Logo} width="100px"/>
        
-        <ul className='main-nav'> 
+           <ul className='main-nav'> 
             <li>
                <a href='#'>Home </a> 
             </li>
@@ -30,10 +30,31 @@ function Header() {
             <li>
                 <a  href='#'>Categories</a>
             </li>
-         </ul>
-      
+              </ul>
+         <div className='drop-down'>
+         <li>
+               <a href='#'>Home </a> 
+            </li>
+            <li>
+                <a  href='#'>New</a>
+            </li>
 
-        </div>
+            <li>
+                <a  href='#'  >Popular</a>
+            </li>
+            <li>
+               <a  href='#' >Trending</a>
+            </li>
+            <li>
+                <a  href='#'>Categories</a>
+            </li>
+         </div>
+      
+         <span className='toggleBtn'>
+        <img src={img6}/>
+         </span>
+       </div>
+ 
          
         <div className='container'>
             <span className='sub-container'><img src={img1} width="100%"/>
